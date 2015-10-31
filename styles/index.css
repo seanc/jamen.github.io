@@ -76,6 +76,9 @@ body {
   display: inline-block;
   font-size: 1.3em;
 }
+.repo .desc {
+  display: block;
+}
 .repo .items {
   margin-top: 4px;
   display: inline-block;
@@ -100,6 +103,9 @@ body {
 .repo .items > .icon:hover:before {
   opacity: 1;
 }
+.repo .items > .icon:nth-child(1) {
+  margin-left: 0 !important;
+}
 .repo .items > .icon a {
   text-decoration: none;
   color: #000;
@@ -109,9 +115,6 @@ body {
 }
 .repo .items .forks:before {
   background-image: url("../images/fork.svg");
-}
-.repo .desc {
-  display: block;
 }
 h1 {
   margin: 0;

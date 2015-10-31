@@ -19,6 +19,9 @@
     display inline-block
     font-size 1.3em
 
+  .desc
+    display block
+
   .items
     margin-top 4px
     display inline-block
@@ -45,6 +48,9 @@
         &:before
           opacity 1
 
+      &:nth-child(1)
+        margin-left 0 !important
+
       a
         text-decoration none
         color #000
@@ -57,9 +63,6 @@
     .forks
       &:before
         background-image url(../images/fork.svg)
-
-  .desc
-    display block
 
 h1
   margin 0
