@@ -161,6 +161,9 @@ h1 {
     min-width: 100% !important;
     flex-basis: 100% !important;
   }
+  .prices .price .info .final {
+    width: 100%;
+  }
   .prices .price .info .final a {
     display: block;
     width: auto;
