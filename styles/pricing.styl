@@ -1,2 +1,45 @@
 // out: pricing.css, compress: true
 @import 'common'
+
+.prices
+  display flex
+  flex-direction row
+  flex-wrap wrap
+
+  .price
+    width 45%
+    margin 10px auto
+    box-sizing border-box
+    margin-bottom 40px
+    border-radius 2px
+
+    > *
+      display block
+      width 100%
+
+    .name
+      font-size 25px
+      padding 20px 0
+      text-align center
+      border-top-left-radius 5px
+      border-top-right-radius 5px
+      color #ededed
+
+    .info
+      box-sizing border-box
+      padding 10px 15px
+      background-color #f6f6f6
+      overflow auto
+      border 1px solid #dbdbdb
+      border-top 0
+
+      .contact
+        width 30%
+        float right
+        font-size 20px
+        text-align center
+        margin 10px 0
+        padding 10px 0
+        background-color #4183D7
+        color #f1f1f1
+        border-radius 5px
