@@ -158,3 +158,8 @@ h1 {
 .getting.failed {
   color: #d73737;
 }
+@media (max-width: 550px) {
+  .repo {
+    min-width: auto !important;
+  }
+}
