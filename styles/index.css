@@ -67,6 +67,13 @@ hr {
   background-color: #3e3e3e;
   margin: 15 auto;
 }
+h1 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 50px;
+}
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -138,16 +145,6 @@ hr {
 }
 .repo .items .forks:before {
   background-image: url("../images/fork.svg");
-}
-h1 {
-  text-align: center;
-  margin: 0;
-  margin-bottom: 40px;
-  font-weight: 400;
-  font-size: 50px;
-}
-hr {
-  margin: 40px auto;
 }
 .getting.failed {
   color: #d73737;
