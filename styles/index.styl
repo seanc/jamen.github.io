@@ -2,10 +2,11 @@
 
 @import 'common'
 
-.cols
+.projects
   display flex
   flex-wrap wrap
-
+  flex-direction row
+  align-content space-between
 
 .col
   width 30%
@@ -13,9 +14,12 @@
   display inline-block
   vertical-align top
   float left
-  min-width 225px
+
 
 .repo
+  display inline-block
+  width 30%
+  margin 0 auto
   box-sizing border-box
   vertical-align top
   padding 10px 15px
@@ -23,6 +27,7 @@
   margin-bottom 20px
   border-radius 2px
   background-color #f6f6f6
+  min-width 225px
 
   > *
     display block
@@ -80,10 +85,11 @@
         background-image url(../images/fork.svg)
 
 h1
+  text-align center
   margin 0
-  margin-bottom 20px
+  margin-bottom 40px
   font-weight 400
-  font-size 40px
+  font-size 50px
 
 .getting
   &.failed

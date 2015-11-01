@@ -1,8 +1,7 @@
 (function($){
   'use strict';
   $(function(){
-    var content = $('.content'),
-        colplace = 1;
+    var projects = $('.projects');
 
     $.ajax({
       'url': 'https://api.github.com/users/jamen/repos?sort=pushed',
@@ -11,7 +10,7 @@
       $('.getting').remove();
       repos.forEach(function(repo){
         if (!repo.fork) {
-          $('.col.' + colplace).append(
+          projects.append(
             "<div class='repo'>" +
               "<div class='info'>" +
                 "<span class='name'>" +
@@ -30,8 +29,6 @@
               "</div>" +
             "</div>"
           );
-          colplace++;
-          if (colplace === 4) colplace = 1;
         }
       });
     }).fail(function(){
