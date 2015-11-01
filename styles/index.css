@@ -59,14 +59,22 @@ body {
   overflow: auto;
   padding: 50px;
 }
+.col {
+  width: 31%;
+  margin-right: 1.5%;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  min-width: 225px;
+}
 .repo {
   box-sizing: border-box;
-  display: block;
-  width: 100%;
-  margin: 20px 0;
-  padding-bottom: 2px;
-  padding-left: 10px;
-  border-left: 5px solid #b4b4b4;
+  vertical-align: top;
+  padding: 10px 15px;
+  border: 1px solid #b4b4b4;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  background-color: #f6f6f6;
 }
 .repo > * {
   display: block;
@@ -75,6 +83,9 @@ body {
 .repo .name {
   display: inline-block;
   font-size: 1.3em;
+}
+.repo .name a {
+  text-decoration: none !important;
 }
 .repo .desc {
   display: block;
