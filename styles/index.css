@@ -24,31 +24,32 @@ body {
   top: 0;
   bottom: 0;
   left: 0;
-  padding: 25px;
-  background-color: #222;
+  background-color: #1d1d1d;
 }
 .wrap .side .logo {
   width: 150px;
   height: 150px;
-  margin: 5px 50px;
+  margin: 20px 75px;
   border-radius: 5px;
 }
 .wrap .side hr {
-  display: block;
-  width: 80%;
-  height: 1px;
-  border: 0;
-  margin: 10 auto;
+  width: 75%;
   margin-bottom: 35px;
   background-color: #dbdbdb;
 }
 .wrap .side a {
   display: block;
   text-decoration: none;
-  color: #dbdbdb;
-  font-size: 1.5em;
+  color: #e4e4e4;
+  font-size: 1.4em;
   text-align: center;
-  margin: 25px auto;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1d1d1d;
+  transition: background 150ms;
+}
+.wrap .side a:hover {
+  background-color: #cd3636;
 }
 .wrap .content {
   position: absolute;
@@ -59,18 +60,20 @@ body {
   overflow: auto;
   padding: 50px;
 }
+hr {
+  width: 90%;
+  height: 1px;
+  border: 0;
+  background-color: #3e3e3e;
+  margin: 15 auto;
+}
 .projects {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  align-content: space-between;
-}
-.col {
-  width: 30%;
-  margin: 0 auto;
-  display: inline-block;
-  vertical-align: top;
-  float: left;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: stretch;
 }
 .repo {
   display: inline-block;
