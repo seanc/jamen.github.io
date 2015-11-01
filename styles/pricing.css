@@ -78,7 +78,7 @@ h1 {
 }
 @media (max-width: 550px) {
   .content {
-    padding: 10px !important;
+    padding: 20px !important;
   }
   .wrap .side {
     left: -250px !important;
@@ -160,5 +160,9 @@ h1 {
     width: 100% !important;
     min-width: 100% !important;
     flex-basis: 100% !important;
+  }
+  .prices .price .info .final a {
+    display: block;
+    width: auto;
   }
 }

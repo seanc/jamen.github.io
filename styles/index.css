@@ -78,7 +78,7 @@ h1 {
 }
 @media (max-width: 550px) {
   .content {
-    padding: 10px !important;
+    padding: 20px !important;
   }
   .wrap .side {
     left: -250px !important;
