@@ -23,7 +23,7 @@
                   "<a href='" + repo.html_url + "/stargazers'>" + repo.stargazers_count + "</a>" +
                 "</span>" +
                 "<span class='forks icon'>" +
-                  "<a href='" + repo.html_url + "/forks'>" + repo.forks + "</a>" +
+                  "<a href='" + repo.html_url + "/network'>" + repo.forks + "</a>" +
                 "</span>" +
                 (repo.language ? "<span class='lang'>(" + repo.language + ")</span>" : '') +
               "</div>" +
