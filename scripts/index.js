@@ -13,18 +13,12 @@
           projects.append(
             "<div class='repo-box'>" +
               "<div class='repo-info'>" +
-                "<span class='name'>" +
-                  "<a target='_blank' href='" + repo.html_url + "'>" + repo.full_name + "</a>" +
-                "</span>" +
+                "<a class='name' target='_blank' href='" + repo.html_url + "'>" + repo.full_name + "</a>" +
                 "<span class='desc'>" + repo.description + "</span>" +
               "</div>" +
               "<div class='repo-items'>" +
-                "<span class='stars icon'>" +
-                  "<a href='" + repo.html_url + "/stargazers'>" + repo.stargazers_count + "</a>" +
-                "</span>" +
-                "<span class='forks icon'>" +
-                  "<a href='" + repo.html_url + "/network'>" + repo.forks + "</a>" +
-                "</span>" +
+                "<a class='item -stars' href='" + repo.html_url + "/stargazers'>" + repo.stargazers_count + "</a>" +
+                "<a class='item -forks' href='" + repo.html_url + "/network'>" + repo.forks + "</a>" +
                 (repo.language ? "<span class='lang'>(" + repo.language + ")</span>" : '') +
               "</div>" +
             "</div>"
