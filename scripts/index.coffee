@@ -23,7 +23,7 @@ $ ->
             "<div class='repo-items'>" +
               "<a class='item -icon -stars' href='" + repo.html_url + "/stargazers'>" + repo.stargazers_count + "</a>" +
               "<a class='item -icon -forks' href='" + repo.html_url + "/network'>" + repo.forks + "</a>" +
-              (repo.language ? "<span class='item'>(" + repo.language + ')</span>' : '') +
+              (if repo.language then "<span class='item'>(" + repo.language + ')</span>' else '') +
             "</div>" +
           "</div>"
         )
