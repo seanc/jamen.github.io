@@ -6,6 +6,7 @@
   float left
   background-color none
   box-shadow 0 1px 1px rgba(0,0,0,0.1)
+  transition background 150ms
 
   > .type
     max-width 50px
@@ -42,6 +43,9 @@
   &.-title
     background-color #27ae60
     color #FFFFFF
+
+  &:hover
+    background-color #f2f2f2
 
   @media (max-width $mobile-size)
     width 100%
