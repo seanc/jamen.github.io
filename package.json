@@ -1,0 +1,19 @@
+{
+  "name": "jamen.github.io",
+  "version": "0.0.0",
+  "description": "This site is licensed under [the Apache License v2](/LICENSE).",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamen/jamen.github.io.git"
+  },
+  "author": "Jamen Marzonie <jamenmarz@gmail.com> (http://jamenmarz.com/)",
+  "bugs": {
+    "url": "https://github.com/jamen/jamen.github.io/issues"
+  },
+  "homepage": "https://github.com/jamen/jamen.github.io#readme",
+  "devDependencies": {
+    "nib": "^1.1.0"
+  }
+}
