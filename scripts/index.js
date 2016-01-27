@@ -1,7 +1,5 @@
 (function() {
-
   $(function() {
-
     $.getJSON('https://api.github.com/users/jamen/repos?sort=pushed')
     .success(function(repos) {
       $('.project-repo').each(function(i) {
@@ -15,10 +13,6 @@
           '</div>'
         );
       });
-
-
     });
-
   });
-
 })();
