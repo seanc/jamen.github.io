@@ -14,5 +14,5 @@
         );
       });
     });
-  });
+  }); .fail(function(){ $('.getting').addClass('failed').html('Error in connecting with Github.'); });
 })();
